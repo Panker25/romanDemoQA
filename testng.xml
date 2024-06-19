@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Roma/IdeaProjects/DemoQAWinter24">
+        <classes>
+            <class name="NambaFood.LomaemNambu">
+                <methods>
+                    <include name="nambaFood"/>
+                </methods>
+            </class>
+            <class name="NambaFood.StreamApi">
+                <methods>
+                    <include name="findByIdTest"/>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
