@@ -46,6 +46,6 @@ public class BaseTest {
     }
     @AfterClass(alwaysRun = true)
     public void tearDown(){
-        DriverManager.closeDriwer();
+        DriverManager.closeDriver();
     }
 }
